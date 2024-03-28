@@ -1,0 +1,211 @@
+<div class="small-nav">
+  <p>6 أكتوبر للتنمية البشرية (ش.م.م)</p>
+</div>
+<nav class="navbar navbar-expand-xl navbar-light">
+  <a class="navbar-brand" routerLink="/">
+    <img src="assets/images/mainAssets/Logo.svg" alt="logo">
+  </a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse jc-sb" id="navbarSupportedContent">
+    <ul class="navbar-nav gap-15">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/home'" [routerLinkActive]="'routerActive'" [routerLinkActiveOptions]="{exact: true}">
+          الرئيسية
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          اكاديمية 6 اكتوبر
+        </a>
+      </li>
+      <li class="nav-item" ngbDropdown >
+        <a class="nav-link" href="#" id="training" role="button" data-bs-toggle="dropdown" aria-expanded="false" ngbDropdownToggle>
+          <div class="flex ai-c gap-10">
+            <span>التدريب</span>
+            <div class="img">
+              <img src="assets/images/icons/arrow-down.svg" alt="">
+            </div>
+          </div>
+        </a>
+        <ul ngbDropdownMenu class="dropdown-menu" aria-labelledby="training">
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>استديو 6 أكتوبر</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>راديو 6 أكتوبر</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>مجلة 6 أكتوبر</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          المنصة المهنية
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="'/accredited-certificates'" [routerLinkActive]="'routerActive'" [routerLinkActiveOptions]="{exact: true}">
+          الشهادات المعتمدة
+          <span class="caret"></span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          انتاج و تطوير البرامج الالكترونية
+          <span class="caret"></span>
+        </a>
+      </li>
+      <li class="nav-item" ngbDropdown >
+        <a class="nav-link" href="#" id="consultations" role="button" data-bs-toggle="dropdown" aria-expanded="false" ngbDropdownToggle>
+          <div class="flex ai-c gap-10">
+            <span>استشارات</span>
+            <div class="img">
+              <img src="assets/images/icons/arrow-down.svg" alt="">
+            </div>
+          </div>
+        </a>
+        <ul ngbDropdownMenu class="dropdown-menu" aria-labelledby="consultations">
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>استشارات تدريبية</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>تصميم برامج تدريبية</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>تصميم حقائب تدريبية</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>استشارات تسويقية</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>استشارات مهنية</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item" ngbDropdown >
+        <a class="nav-link" href="#" id="media" role="button" data-bs-toggle="dropdown" aria-expanded="false" ngbDropdownToggle>
+          <div class="flex ai-c gap-10">
+            <span>ميديا 6 أكتوبر</span>
+            <div class="img">
+              <img src="assets/images/icons/arrow-down.svg" alt="">
+            </div>
+          </div>
+        </a>
+        <ul ngbDropdownMenu class="dropdown-menu" aria-labelledby="media">
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>المراكز التدريبية</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>البرامج التدريبية</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>جهات التعاون</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a ngbDropdownItem class="dropdown-item" href="#">
+              <div class="flex ai-c jc-sb">
+                <span>المنح التدريبية</span>
+                <div class="img">
+                  <img src="assets/images/icons/smallArrowLeft.svg" alt="">
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          من نحن
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">
+          تواصل معنا
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>

@@ -1,0 +1,57 @@
+@import "/src/assets/abstracts/variables";
+
+.card {
+  background: #fff;
+  border: 1px solid #D4D4D4;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+  margin-bottom: 1em;
+  .certificate {
+    .img {
+      width: 350px;
+      height: 230px;
+    }
+  }
+  .info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    .header {
+      h4.title {
+        font-size: 20px;
+        color: $mainTextColor;
+        font-weight: 700;
+      }
+    }
+    .content {
+      p {
+        font-size: 16px;
+        line-height: 35px;
+        color: $mainTextColor;
+        font-weight: 400;
+      }
+    }
+    .footer {
+      .actions {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        button.primary-button {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          background: $mainColor;
+          color: #fff;
+          border: 1px solid $mainColor;
+          padding: 15px 20px;
+          border-radius: 12px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
